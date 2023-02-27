@@ -18,7 +18,9 @@
                 <h2>Hudyfa.</h2>
             </div>
             <div class="menu">
-                <i class="fa-solid fa-bars fa-xl" id="#menu-icon"></i>
+               <button  id="menu-icon" class="myClass">
+                <i class="fa-solid fa-bars fa-xl" onclick="myFunction()"></i>
+               </button> 
             </div>
         </div>
     </nav>
@@ -60,7 +62,7 @@
             </div>
         </div>
     </section>
-    <!-- <section class="menubar">
+    <section class="menubar" id="menubar">
         <div class="main-menu">
             <ul>
                 <li> <a href="index.html">
@@ -93,8 +95,17 @@
                 <i class="fa-brands fa-whatsapp fa-xl"></i>
             </div>
         </div>
-    </section> -->
+    </section>
 
-    <script src="./script.js"></script>
+    <!-- <script src="./script.js"></script> -->
+    <script>
+      function myFunction() {
+        var element = document.getElementById("menu-icon");
+        var menu = document.getElementById("menubar");
+         element.addEventListener("click",()=>{
+         menu.classList.toggle("mystyle");
+        })
+    }
+    </script>
 </body>
 </html>
