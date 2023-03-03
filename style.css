@@ -772,7 +772,7 @@ footer{
 
 /*                            footer edit ends              */
 
-@media(max-width:768px){
+@media(min-width:768px) and (max-width:1023px){
 
     .navbar{
         width: 80%;
@@ -917,3 +917,310 @@ footer{
     }
     
 }
+
+@media (min-width:1024px) and (max-width:1439px) {
+    .navbar{
+        width: 80%;
+        margin: 2rem 6rem;
+    }
+
+    .hero{
+        display: flex;
+        flex-direction: column;
+        width: 81%;
+        margin: 2rem 6rem;
+
+    }
+
+    .myself{
+        width: 100%;
+    }
+
+    .hero-description{
+        width: 65%;
+    }
+
+    .connect{
+        width: 55%;
+    }
+
+    .hero-image-box{
+        width: 60%;
+    }
+
+    .information{
+        width: 80%;
+        height: 29.188rem;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        margin: 2rem 6rem;
+
+    }
+
+    .aboutme{
+        width: 100%;
+        margin: 0rem 0rem;
+        height: 23.18rem;
+    }
+
+    .aboutme-heading{
+        width: 20rem;
+        
+    }
+
+    .aboutme-description{
+        width: 90%;
+    }
+
+    
+    .aboutme-button{
+        width: 35%;
+        display: flex;
+        justify-content: flex-start;
+        align-items: end;
+        background-color: #f1f1f1;
+        /* margin-left: 20px; */
+    }
+    
+    .profession{
+        width: 80%;
+        margin: 4rem 6rem;
+        height: 60.8rem;
+    }
+
+    .profession-box-container{
+        display: flex;
+        flex-direction: column;
+        align-items: start;
+    }
+
+    .profession-box{
+        width: 50.5rem;
+        height: 14rem;
+        padding: 2.5rem;
+        margin-bottom: 4rem;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+    }
+
+    .portfolio{
+        width: 80%;
+        margin: 2rem 6rem;
+        height: 230.6rem;
+
+    }
+
+    .portfolio-box{
+        display: flex;
+        flex-direction: column;
+        height: 57.6rem;
+    }
+
+    .portfolio-box-left{
+        width: 100%;
+        height: 24.3rem;
+    }
+
+    .pbox-left-bottom{
+        display: flex;
+        flex-direction: row;
+        justify-content: start;
+        align-items: start;
+    }
+
+    .portfolio-box-right{
+        width: 100%;
+        height: 32rem;
+
+    }
+
+    .email{
+        width: 80%;
+        margin: 27rem 6rem 7rem 6rem;
+        height: 28.875rem;
+
+    }
+
+    .first-line,
+    .second-line{
+        width: 100%;
+        height: 3rem;
+        text-align: center;
+        margin: 1.5rem 0rem;
+    }
+
+    .first-line h2,
+    .second-line h2{
+        font-size: 2rem;
+        color: #555555;
+        line-height: 3rem;
+        font-weight: 500;
+    }
+
+    footer{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        height: 55.18rem;
+    }
+
+
+}
+
+@media(min-width:425px) and (max-width:767px){
+
+    .navbar{
+        width: 100%;
+        margin: 2rem 3rem;
+    }
+
+    .hero{
+        display: flex;
+        flex-direction: column;
+        width: 80%;
+        margin: 2rem 3rem;
+
+    }
+
+    .myself{
+        width: 100%;
+    }
+
+    .hero-description{
+        width: 100%;
+    }
+
+    .connect{
+        width: 100%;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+    }
+
+    .hero-image-box{
+        width: 80%;
+        margin-top: 3rem;
+    }
+
+    .information{
+        width: 80%;
+        height: 29.188rem;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        margin: 14rem 2rem;
+
+    }
+
+    .aboutme{
+        width: 30rem;
+        margin: 0rem 0rem;
+        height: 55.18rem;
+        padding-bottom: 10rem;
+    }
+
+    .aboutme-heading{
+        width: 20rem;
+        
+    }
+
+    .aboutme-description{
+        width: 80%;
+    }
+
+    
+    .aboutme-button{
+        width: 35%;
+        display: flex;
+        justify-content: flex-start;
+        align-items: end;
+        background-color: #f1f1f1;
+        /* margin-left: 20px; */
+        margin-top: 3rem;
+    }
+    
+    .profession{
+        width: 30rem;
+        margin: 4rem 2rem;
+        height: 60.8rem;
+    }
+
+    .profession-box-container{
+        display: flex;
+        flex-direction: column;
+        align-items: start;
+    }
+
+    .profession-box{
+        width: 30.5rem;
+        height: 16rem;
+        padding: 2.5rem;
+        margin-bottom: 4rem;
+    }
+
+    .portfolio{
+        width: 30rem;
+        margin: 2rem 2rem;
+        height: 220.6rem;
+
+    }
+
+    .portfolio-box{
+        display: flex;
+        flex-direction: column;
+        height: 50.6rem;
+    }
+
+    .portfolio-box-left{
+        width: 100%;
+        height: 24.3rem;
+    }
+
+    .pbox-left-bottom{
+        display: flex;
+        flex-direction: row;
+        justify-content: start;
+        align-items: start;
+    }
+
+    .portfolio-box-right{
+        width: 100%;
+    }
+
+    .email{
+        width: 30rem;
+        margin: 10rem 2rem 7rem 2rem;
+        height: 28.875rem;
+
+    }
+
+    .first-line,
+    .second-line{
+        width: 100%;
+        height: 3rem;
+        text-align: center;
+        margin: 2.9rem 0rem;
+    }
+
+    .first-line h2,
+    .second-line h2{
+        font-size: 2rem;
+        color: #555555;
+        line-height: 3rem;
+        font-weight: 500;
+    }
+
+    footer{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: flex-start;
+        height: 55.18rem;
+        width: 32rem;
+        padding: 8rem 4rem;
+    }
+    
+}
+
